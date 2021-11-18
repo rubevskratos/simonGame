@@ -18,6 +18,19 @@ body {
     margin: 0 auto;
 }
 
+#instructions {
+    position: relative;
+    width: 100%;
+    height: Auto;
+    margin: 10px auto;
+}
+
+#instructions p {
+    background-color: rgba(190,185,255,0.9);
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .color {
     width: 300px;
     height: 300px;
@@ -51,6 +64,26 @@ body {
 }
 
 #start:hover{
+    background-color: rgb(100, 175, 84);
+    border-color: rgb(100, 173, 85);;
+    cursor: pointer;
+}
+
+#versus {
+    height: 50px;
+    width: 150px;
+    text-align: right;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(125, 218, 106);
+    background-color: rgb(121, 216, 102);
+    color:rgb(21, 44, 66);
+    background-image: url('./media/icons/noun_play_969621.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#versus:hover{
     background-color: rgb(100, 175, 84);
     border-color: rgb(100, 173, 85);;
     cursor: pointer;
@@ -164,9 +197,14 @@ body {
     margin: -75px;
     border-radius: 50%;
     text-align: center;
-    line-height: 150px;
     color: white;
     font-size: 50px;
+    line-height: 150px;
+}
+
+#counter p {
+    position:absolute;
+    top: 5%;
 }
 
 #gameOver {
