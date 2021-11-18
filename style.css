@@ -1,0 +1,182 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+html {
+    height: 100%;
+}
+body {
+    background-image: radial-gradient(circle at top right, rgb(36, 9, 119) 0%, rgb(36, 9, 119) 48%,rgb(72, 7, 149) 48%, rgb(72, 7, 149) 53%,rgb(109, 5, 178) 53%, rgb(109, 5, 178) 56%,rgb(145, 2, 208) 56%, rgb(145, 2, 208) 69%,rgb(181, 0, 237) 69%, rgb(181, 0, 237) 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.board {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.color {
+    width: 300px;
+    height: 300px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.menu {
+    position: relative;
+    
+    margin-top: 50px;
+}
+
+.options {
+    margin-top: 10px;
+}
+
+#start {
+    height: 50px;
+    width: 150px;
+    text-align: right;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(125, 218, 106);
+    background-color: rgb(121, 216, 102);
+    color:rgb(21, 44, 66);
+    background-image: url('/media/icons/noun_play_969621.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#start:hover{
+    background-color: rgb(100, 175, 84);
+    border-color: rgb(100, 173, 85);;
+    cursor: pointer;
+}
+
+#restart {
+    height: 50px;
+    width: 170px;
+    text-align: right;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgb(190, 142, 97);
+    border-color: rgb(156, 124, 87);
+    color:rgb(41, 38, 39);
+    background-image: url('/media/icons/noun_Arrow\ Left_921936.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#restart:hover{
+    background-color: rgb(151, 113, 78);
+    border-color: rgb(105, 84, 60);
+    cursor: pointer;
+}
+
+
+#noSounds {
+    height: 50px;
+    width: 110px;
+    text-align: right;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(125, 218, 106);
+    background-color: rgb(121, 216, 102);
+    background-image: url('/media/icons/noun_Speaker_900833.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#noSounds.active,
+#noSounds:hover{
+    background-color: slategrey;
+    border-color: darkslategray;
+    cursor: pointer;
+}
+
+#red {
+    position: absolute;
+    right: 0%;
+    border-top-right-radius: 100%;
+    background: rgb(112,0,0);
+    background: linear-gradient(0deg, rgba(112,0,0,1) 0%, rgba(244,107,107,1) 100%);
+}
+
+#red.active,
+#red:hover {
+    background: rgb(255,172,172);
+    background: linear-gradient(180deg, rgba(255,185,190,1) 0%, rgba(233,51,51,1) 100%);
+}
+
+#blue {
+    position: absolute;
+    border-top-left-radius: 100%;
+    background: rgb(0,26,112);
+    background: linear-gradient(0deg, rgba(0,26,112,1) 0%, rgba(107,148,244,1) 100%);
+}
+
+#blue.active,
+#blue:hover {
+    background: rgb(175,172,255);
+    background: linear-gradient(180deg, rgba(190,185,255,1) 0%, rgba(41,68,233,1) 100%);
+}
+
+#yellow {
+    position: absolute;
+    bottom: 0%;
+    border-bottom-left-radius: 100%;
+    background: rgb(196,203,72);
+    background: linear-gradient(356deg, rgba(196,203,72,1) 0%, rgba(185,189,53,1) 100%);
+}
+
+#yellow.active,
+#yellow:hover {
+    background: rgb(255,251,172);
+    background: linear-gradient(356deg, rgba(255,251,172,1) 0%, rgba(233,204,21,1) 100%);
+}
+
+#green {
+    position:absolute;
+    bottom: 0%;
+    right: 0%;
+    border-bottom-right-radius: 100%;
+    background: rgb(128,176,119);
+    background: linear-gradient(356deg, rgba(128,176,119,1) 0%, rgba(31,144,12,1) 100%);
+}
+
+#green.active,
+#green:hover {
+    background: rgb(180,255,172);
+    background: linear-gradient(356deg, rgba(200,255,192,1) 0%, rgba(82,233,51,1) 100%);
+}
+
+#counter {
+    border-style: solid black;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -75px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-size: 50px;
+}
+
+#gameOver {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 600px;
+    font-weight: bolder;
+    font-size:xx-large;
+    background-color: hsl(0,100%,50%,0.2);
+    border-radius: 50%;
+}
