@@ -25,6 +25,6 @@ Upcoming:
 
 
 CREDITS:
-Button images by Alex Murarev from The Noun Project
-Intro music by Steve Oxen from www.fresliyanstudios.com
-Button sounds from www.freeCodeCamp.com
+- Button images by Alex Murarev from The Noun Project
+- Intro music by Steve Oxen from www.fresliyanstudios.com
+- Button sounds from www.freeCodeCamp.com
