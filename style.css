@@ -45,7 +45,7 @@ body {
     border-color: rgb(125, 218, 106);
     background-color: rgb(121, 216, 102);
     color:rgb(21, 44, 66);
-    background-image: url('/media/icons/noun_play_969621.svg');
+    background-image: url('./media/icons/noun_play_969621.svg');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -65,7 +65,7 @@ body {
     background-color: rgb(190, 142, 97);
     border-color: rgb(156, 124, 87);
     color:rgb(41, 38, 39);
-    background-image: url('/media/icons/noun_Arrow\ Left_921936.svg');
+    background-image: url('./media/icons/noun_Arrow\ Left_921936.svg');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -85,7 +85,7 @@ body {
     border-radius: 10px;
     border-color: rgb(125, 218, 106);
     background-color: rgb(121, 216, 102);
-    background-image: url('/media/icons/noun_Speaker_900833.svg');
+    background-image: url('./media/icons/noun_Speaker_900833.svg');
     background-repeat: no-repeat;
     background-size: contain;
 }
