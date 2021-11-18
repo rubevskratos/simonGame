@@ -22,3 +22,9 @@ Sounds:
 Upcoming:
 - New game mode:
   1. User sequence mode: Allows the user to introduce a sequence, then awaits for the user to repeat the exact same sequence. Usefull for play along with friends.
+
+
+CREDITS:
+Button images by Alex Murarev from The Noun Project
+Intro music by Steve Oxen from www.fresliyanstudios.com
+Button sounds from www.freeCodeCamp.com
